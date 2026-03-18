@@ -1,80 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #000;
-    color :#fff;
-    font-style : sans-serif;
-    line-height : 1.5;
+    color: #fff;
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.6;
 }
 
-.top-nav{
-    margin: 0;
-    padding: 20px;
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 5%;
+    background-color: rgba(0, 0, 0, 0.8);
     font-weight: 700;
-    background-color: #000;
-    backdrop-filter: blur;
+    z-index: 1000;
+    border-bottom: 1px solid #333;
 }
 
-main{
-    padding:0 5%;
+main {
+    padding-top: 80px;
 }
 
-.Lee{
+.Lee {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.main-title{
-    font-style: serif;
-    letter-spacing: -0.05em;
+.main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 15vw;
+    line-height: 1;
+    color: #fff;
 }
 
-.sub_intro{
-    font-size: large;
-    opacity: 0.9;
+.sub-intro {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 0.2em;
 }
 
-.section{
-    background-color: rgba(74, 73, 73, 0.8);
-    padding: 30px 10px;
+.section {
+    padding: 100px 5%;
+    overflow: hidden;
+    border-bottom: 1px solid #222;
 }
 
-.container{
-    font-size: medium;
-    letter-spacing: 0.3em;
-    color : #43f120;
+.container {
+    font-size: 0.9em;
+    letter-spacing: 0.5em;
+    color: #43cf3d;
+    margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
-.card{
-    padding : 10px 10px;
-    background-color: rgba(74, 73, 73, 0.8);
-    font-size: small;
-    letter-spacing: -0.05em;
-}
-.skill{
-    padding:30px 10px;
-    background-color: rgba(194, 186, 186, 0.815);
-}
-
-.skill-set{
-    font-size: small;
-    letter-spacing: -0.05em;
+.card {
+    width: 48%;
+    float: left;
+    margin: 1%;
+    padding: 40px 20px;
+    background-color: #111;
+    text-align: center;
+    border: 1px solid #333;
 }
 
-.strength{
-    padding : 10px 10px;
-    font-size: medium;
+.card:hover {
+    border-color: #43cf3d;
+    color: #43cf3d;
+}
+
+.skill-set {
+    text-align: center;
+    border : 1px solid #333;
+}
+
+.strength {
+    font-size: 4em;
+    margin: 20px 0;
+    color: #2089f1;
+}
+
+.skill-set:hover{
+    border-color: #2089f1;
     color : #2089f1;
 }
 
-.team{
-    padding:30px 10px;
-    background-color: rgba(74, 73, 73, 0.8);
+.portfolio {
+    padding: 100px 5%;
+    background-color: #050505;
+    border-bottom: 1px solid #222;
 }
 
-.wish{
-    font-size: small;
-    letter-spacing: -0.05em;
+.work-box {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 30px;
+    border: 1px solid #333;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-box img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.wish {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.after li {
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #43cf3d;
 }

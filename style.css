@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color :#fff;
+    font-style : sans-serif;
+    line-height : 1.5;
+}
+
+.top-nav{
+    margin: 0;
+    padding: 20px;
+    font-weight: 700;
+    background-color: #000;
+    backdrop-filter: blur;
+}
+
+main{
+    padding:0 5%;
+}
+
+.Lee{
+    justify-content: center;
+}
+
+.main-title{
+    font-style: serif;
+    letter-spacing: -0.05em;
+}
+
+.sub_intro{
+    font-size: large;
+    opacity: 0.9;
+}
+
+.section{
+    background-color: rgba(74, 73, 73, 0.8);
+    padding: 30px 10px;
+}
+
+.container{
+    font-size: medium;
+    letter-spacing: 0.3em;
+    color : #43f120;
+}
+
+.card{
+    padding : 10px 10px;
+    background-color: rgba(74, 73, 73, 0.8);
+    font-size: small;
+    letter-spacing: -0.05em;
+}
+.skill{
+    padding:30px 10px;
+    background-color: rgba(194, 186, 186, 0.815);
+}
+
+.skill-set{
+    font-size: small;
+    letter-spacing: -0.05em;
+}
+
+.strength{
+    padding : 10px 10px;
+    font-size: medium;
+    color : #2089f1;
+}
+
+.team{
+    padding:30px 10px;
+    background-color: rgba(74, 73, 73, 0.8);
+}
+
+.wish{
+    font-size: small;
+    letter-spacing: -0.05em;
+}
